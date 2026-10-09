@@ -1,0 +1,63 @@
+1. What are Keywords?
+Keywords are reserved words that have a special meaning in . They cannot be used as variable names or function names.
+Examples of  keywords:
+var, let, const, if, else, for, while, function, return, class, new, this, async, await, try, catch.
+Example:
+let age = 25;      // Correct
+const name = "Gurpreet"; // Correct
+let if = 10;       // Error: 'if' is a keyword
+
+-> Rules of Keywords
+i. Keywords have predefined meanings in .
+ii. Keywords cannot be used as identifiers.
+iii. Keywords are case-sensitive. For example, if is a keyword, but IF is not the Sirie keyword.
+iv. Some words have special restrictions depending on the context, such as await and yield.
+
+2. What are Identifiers?
+Identifiers are names used to identify variables, functions, classes, and other program elements.
+Example:
+let userName = "Gurpreet";
+const age = 27;
+function loginTest() {
+    console.log(userName);
+}
+Here, userName, age, and loginTest are identifiers.
+
+-> Rules of Identifiers
+
+i. Must start with a letter, underscore (_), or dollar sign ($).
+let name = "Gurpreet";  // Valid
+let _age = 27;     // Valid
+let $price = 100;  // Valid
+
+ii. Cannot start with a digit.
+let 1name = "Gurpreet"; // Invalid
+let name1 = "Gurpreet"; // Valid
+
+iii. Can contain letters, digits, underscores, and dollar signs.
+let user_name = "Gurpreet"; // Valid
+let user1 = "Gurpreet";     // Valid
+let $total = 500;      // Valid
+
+iv. Spaces and hyphens are not allowed.
+let user name = "Gurpreet"; // Invalid
+let user-name = "Gurpreet"; // Invalid
+
+v. Cannot be a reserved keyword.
+let for = 10; // Invalid
+let score = 10; // Valid
+
+vi. Identifiers are case-sensitive.
+let name = "Gurpreet";
+let Name = "Jai";
+let NAME = "Siri";
+console.log(name); // Gurpreet
+console.log(Name); // Jai
+console.log(NAME); // Siri
+
+vii. Use meaningful names for readability.
+let browserName = "Chrome"; // Recommended
+let b = "Chrome";            // Valid, but less descriptive
+
+
+3. Valid vs. Invalid Identifiers

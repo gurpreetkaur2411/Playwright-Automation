@@ -19,3 +19,5 @@ console.log(typeof nullValue); // object  - as everything in JS is object.
 console.log(typeof undefinedValue);
 
 
+
+

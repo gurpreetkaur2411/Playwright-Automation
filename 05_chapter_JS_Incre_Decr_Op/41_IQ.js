@@ -1,4 +1,4 @@
-let i = 1;
-let result = i++ + ++i;
+let a = 10;
 
-console.log(result,i );
+console.log(++a + a + a ++);
+console.log(a);

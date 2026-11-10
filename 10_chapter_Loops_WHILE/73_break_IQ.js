@@ -1,5 +1,5 @@
 // break terminate the loop
-let age = 7;
+let age = 17;
 while (true) {
     if (age > 10) {
         break;
@@ -7,4 +7,5 @@ while (true) {
     else {
         console.log("Age is less than 10");
     }
+    age++;
 }
